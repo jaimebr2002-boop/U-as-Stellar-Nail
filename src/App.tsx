@@ -520,7 +520,7 @@ const Reviews = () => {
             href="https://www.google.com/maps/place/U%C3%B1as+Stellar+Nail/@43.3625407,-5.8653894,17z/data=!4m8!3m7!1s0xd368d5b976bc2c9:0xf0a6d38264c016e8!8m2!3d43.3625368!4d-5.8628145!9m1!1b1!16s%2Fg%2F11twccbk0s?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-text-warm/60 hover:text-accent-pink font-label uppercase tracking-widest text-xs border-b border-transparent hover:border-accent-pink transition-all pb-1"
+            className="inline-flex items-center justify-center border border-accent-pink text-accent-pink hover:bg-accent-pink hover:text-bg-main px-8 py-4 rounded-full font-label uppercase tracking-widest text-sm transition-all duration-300"
           >
             Deja tu reseña
           </a>
@@ -558,7 +558,10 @@ const Location = () => {
               </div>
               <div>
                 <h4 className="font-label uppercase tracking-widest text-sm text-text-warm/50 mb-2">Teléfono</h4>
-                <a href="tel:685236999" className="font-body text-lg text-text-main hover:text-accent-pink transition-colors">685 236 999</a>
+                <div className="flex flex-col gap-1">
+                  <a href="tel:685236999" className="font-body text-lg text-text-main hover:text-accent-pink transition-colors">685 236 999</a>
+                  <a href="tel:985737733" className="font-body text-lg text-text-main hover:text-accent-pink transition-colors">985 737 733</a>
+                </div>
               </div>
             </div>
 
@@ -677,6 +680,7 @@ const Footer = () => {
             <h4 className="font-label uppercase tracking-widest text-sm text-text-main mb-6">Contacto</h4>
             <ul className="space-y-3 font-body text-text-warm/60">
               <li><a href="tel:685236999" className="hover:text-accent-pink transition-colors">685 236 999</a></li>
+              <li><a href="tel:985737733" className="hover:text-accent-pink transition-colors">985 737 733</a></li>
               <li>Av. Valentín Masip, 30, local 2</li>
               <li>Oviedo, Asturias</li>
             </ul>
